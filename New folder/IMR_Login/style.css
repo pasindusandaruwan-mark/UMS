@@ -1,0 +1,346 @@
+/* fist page css */
+
+
+.btn1{
+
+    text-align: center;
+    background: #adacaf;
+    color: rgb(12, 11, 11); /* button css */
+
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: none;
+    margin: 30px; 
+   
+}
+.btn1:hover {
+    box-shadow: 0 0 25px #191918;
+        background: #777879;
+
+}
+  
+background {
+
+             ackground-image: url('pasindu.png');
+             background-size: cover;                 /* background css */
+
+             background-repeat: no-repeat; 
+             background-position: center;
+}
+.class1{
+    text-align: center;
+    margin: 150px    ;
+}
+
+#id1{
+    text-align: center;
+    color: bisque;
+    font-size: 100px;
+}
+
+/* second page css */
+
+.class2{
+    text-align: center; /* dev class css */
+
+    margin: 350px    ;
+}
+
+.btn2{
+    text-align: center;
+    background: #b0b2b4;   /* sin in , log in css */
+
+    color: rgb(12, 11, 11);
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    margin: 30px;
+
+}
+
+.btn2:hover{
+    box-shadow: 0 0 25px #191918;
+     background: #777879;
+     
+}
+
+/* otp-page css */
+  
+#id3{
+    text-align: center;
+    color: rgb(14, 11, 7);
+    font-size: 40px;
+
+}
+#cla1{
+     width: 300px;
+     height: 40px;
+     margin: auto;
+     display: flex;
+     margin-top: 50px;
+     align-items: center;
+      text-align: center;
+    color: rgb(52, 142, 233);
+    border-radius: 15px;
+    
+    background-color: rgba(21, 20, 20, 0);
+    font-size: 20px;
+    
+
+} 
+
+.cla2{
+    border-radius: 10px;
+     color: #000;
+   background-color: rgba(0, 0, 0, 0.3);
+   box-shadow:inset -8px -8px rgba(0, 0, 0, 0.5);
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    margin-top: 300px;
+    
+}
+
+
+
+
+.class3{
+    text-align: center; 
+     display: flex;
+    margin: auto    ;
+   
+}
+
+.btn3{
+    text-align: center;
+    background: #b0b2b4;   /* go button css */
+    margin: auto; 
+    margin-top: 50px;
+    color: rgb(12, 11, 11);
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    
+
+}
+.btn3:hover{
+    box-shadow: 0 0 25px #191918;
+     background: #777879;
+     
+}
+/* sign in page */
+form{
+   align-items: center;
+   width: 600px;
+   height: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+     margin-top: 150px;
+    border-radius: 10px;
+    color: #000;
+   background-color: rgba(0, 0, 0, 0.5);
+   box-shadow:inset -8px -8px rgba(0, 0, 0, 0.5);
+}
+.class4{
+      margin-top:  30px;
+     width: 70%;
+     height: 7%;
+     border-radius: 10px;
+     background-color:rgba(0, 0, 0, 0.5) ;
+     color: rgb(130, 197, 239);
+     font-size: 15px;
+}
+
+p{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(224, 218, 218);
+
+}
+.right{
+    
+   
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);  /* submit , back button css */
+     
+    color: rgb(248, 243, 243);
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+
+.right:hover{
+    box-shadow: 0 0 25px #c3c3ba;
+     background: #777879;
+     
+}
+.left{
+    
+   
+    align-items: center;
+   background-color: rgba(0, 0, 0, 0.5); /* submit , back button css */
+     
+    color: rgb(222, 217, 217);
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+
+}
+.left:hover{
+    box-shadow: 0 0 25px #c3c3ba;
+     background: #777879;
+     
+}
+
+
+.button-line {
+    
+   
+       display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90%; 
+    margin: 50px auto 0 auto; 
+    
+    /* left + right */
+
+    padding-left: 5px;
+    
+
+}
+  
+
+::placeholder {
+    color: rgb(180, 174, 174);
+    opacity: 1; 
+}
+
+  .form1{
+    width: 600px;
+    height:450px;
+    margin: auto;
+    margin-top: 220;
+    display: flex;
+    flex-direction: column;
+ 
+  }
+
+  .class5{
+    margin-top: 35px;
+    width: 70%;
+    height: 7%;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    color: rgb(130, 197, 239);
+    font-size: 15px;
+  }
+
+
+ .button-line2 {
+    
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90%; 
+    margin: 120px auto 0 auto; 
+    
+    /* left + right */
+
+ } 
+
+
+     /* login page css */
+
+.button-line3{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90%; 
+    margin: 70px auto 0 auto;  
+   
+      
+ } 
+
+ .class6{
+    margin-top: 30px;
+    width: 70%;
+    height: 7%;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    color: rgb(130, 197, 239);  
+    font-size: 15px;
+
+ }
+
+ .form2{
+    height: 430px;
+ }
+
+
+    /* get otp page css */
+
+ .class7{
+    margin-top: 30px;
+    width: 70%;
+    height: 7%;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    color: rgb(130, 197, 239);  
+    font-size: 15px;
+
+ }
+
+ #H1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 50px;
+ }
+
+    .button-line4{
+        margin-top:50 ;
+    }
+
+
+
+    .form3{
+      height: 400px;
+      margin-top: 200px;
+    }
+
+
+
+    /* log in page foget butten*/
+    .pa1{
+          margin-top: 20px;
+          margin-left:350px;
+         
+    }
+
+    .foget{
+         
+   background-color: rgba(0, 0, 0,0.0); /* submit , back button css */
+     
+    color: rgb(217, 31, 31);
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    
+    }
+
+  .toggle-eye {
+            margin-top: 15px;
+            margin-left: 400px;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            font-size: 15px;
+        }

@@ -1,0 +1,27 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>water, gase , ilec</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body background="pasindu.png">
+    
+    <h1 id="id1">welcome</h1>
+    <div class="class1">
+       <button class="btn1" onclick="go('Customer')">Customer</button><br> 
+       <button class="btn1" onclick="go('officer')">officer</button><br>   
+       <button class="btn1" onclick="go('Admin')">Admin</button><br>
+       <button class="btn1" onclick="go('Manager')">Manager</button><br>
+    </div>
+
+</body>
+
+<script>
+   function go(character){
+    window.location.href="second.html?role="+character;
+   } 
+</script>
+</html>

@@ -1,0 +1,25 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="pasindu.png">
+
+    <div class=" class2">
+        <button class="btn2" onclick="sin()">sin in</button><br>
+        <button class="btn2 "onclick ="log()" >log in </button><br>
+    </div>
+</body> 
+<script>
+       const urlparams = new URLSearchParams(window.location.search);
+       const role = urlparams.get('role');
+
+      function sin(){
+        window.location.href="sinin.html?role="+role;
+      }
+      function log(){
+        window.location.href="login.html?role="+role;      
+      }
+</script>
+</html>

@@ -1,0 +1,48 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>water, gase , ilec</title>
+    <link rel="stylesheet" href="style.css">
+
+   
+   
+</head>
+<body background="pasindu.png">
+
+    
+       <form class="form2" action="log-in.php" method="post">
+          
+             <p>Log in </p>
+             <input type="text" name="email" placeholder=  "Enter your Email " class="class6" required aria-required="8">
+             <input type="password" name="password"  id="password" placeholder=  "enter your password " class="class6" required aria-required="8">
+             <span class="toggle-eye" onclick="togglePassword()">🔒</span>
+              <div class="pa1">
+
+                 <button type="button"  onclick="location.href='getotp.html'" >foget password</button>   
+              </div>    
+
+                
+                    
+                     <div class="button-line3">
+                     
+                       <button class="left"  onclick="location.href='second.html'" >Back</button> 
+                       <button type="submit" class="right">Next</button>
+
+                       
+                        </div >
+            
+       </form>
+<script>
+   function togglePassword() {
+     const pwd = document.getElementById("password");
+     const eye = document.querySelector(".toggle-eye");
+ 
+      if (pwd.type === "password") {
+        pwd.type = "text";
+        eye.textContent = "🔓"; // when showing
+      } else {
+        pwd.type = "password";
+        eye.textContent = "🔒"; // when hiding
+      }
+}
+</script>

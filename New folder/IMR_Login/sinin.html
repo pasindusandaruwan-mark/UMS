@@ -1,0 +1,48 @@
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>water, gase , ilec</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="pasindu.png">
+
+    
+       <form action="passwordarange.html" method="GET">
+          
+             <p>Sign in </p>
+             <input type="hidden" name="role" id="role">
+
+            <input  type="text"  name="fname" class="class4" required placeholder="Enter your name">
+            <input  type="text"  name="address"  class="class4"  required placeholder="Enter your address">                
+            <input type="text"  name="pnumber"  class="class4" required placeholder="Enter your phone number">
+            <input type="text"  name="email" class="class4" required placeholder="Enter your email">     
+            <input type= "text"   name="NIC" class="class4"  required  placeholder="Enter your NIC number">
+                   
+           
+
+                   
+                
+                   
+
+                
+                    
+                     <div class="button-line">
+                     
+                       <button class="left"  onclick="location. href='second.html'" >Back</button> 
+                       <button class="right" type="submit">Next</button>
+                       
+                        </div>  
+       </form>      
+   
+
+</body >
+
+ <script> 
+    const urlparams = new URLSearchParams(window.location.search);
+    const role = urlparams.get('role'); 
+
+    document.getElementById("role").value = role;
+  </script>
+    
+     

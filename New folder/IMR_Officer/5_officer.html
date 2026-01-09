@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Officer-Bills Management</title>
+    <link rel="stylesheet" href="offficer_styles.css" />
+
+</head>
+<body class="page_2">
+    <!--Left side bar-->
+    <div class="sidebar">
+        <h1>Bills</h1>
+        
+        <div class="bills-section">
+            <div class="bill-item">
+                <span>Water 💧</span>
+                <div class="toggle"></div>
+            </div>
+            <div class="bill-item">
+                <span>Electricity ⚡</span>
+                <div class="toggle"></div>
+            </div>
+            <div class="bill-item">
+                <span>Gas 💨</span>
+                <div class="toggle"></div>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <div class="menu-item" onclick="location.href='2_officer.html'">Monthly meter reading</div>
+            <div class="menu-item" onclick="location.href='3_officer.html'">All meter</div>
+            <div class="menu-item" onclick="location.href='4_officer.html'">Customer Information</div>
+            <div class="menu-item active" onclick="location.href='5_officer.html'">Payment Information</div>
+        </div>
+
+        <button class="back-btn"  onclick="location.href='1_officer.html'">Back</button>
+    </div>
+
+    <!--Center main-->
+    <div class="main-content">
+        <div class="card_2">
+            <div class="form-group">
+                <label>Customer ID :</label>
+                <input type="text" placeholder="Enter Customer ID">
+            </div>
+
+            <button class="show-btn">SHOW</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="officer_script.js"></script>
+</body>
+</html>
